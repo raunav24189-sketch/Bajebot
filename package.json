@@ -1,7 +1,7 @@
 {
   "name": "whatsapp-calendar-bot",
   "version": "1.0.0",
-  "description": "WhatsApp bot for Google Calendar management and daily routines",
+  "description": "WhatsApp bot for Google Calendar management",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
@@ -11,14 +11,15 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
-    "whatsapp-web.js": "^1.23.0",
-    "qrcode-terminal": "^0.12.0",
+    "@whiskeysockets/baileys": "^6.7.8",
+    "@hapi/boom": "^10.0.1",
     "googleapis": "^128.0.0",
     "express": "^4.18.2",
     "dotenv": "^16.3.1",
     "node-cron": "^3.0.3",
     "chrono-node": "^2.7.3",
-    "lowdb": "^1.0.0"
+    "pino": "^8.16.2",
+    "qrcode-terminal": "^0.12.0"
   },
   "devDependencies": {
     "nodemon": "^3.0.2"
